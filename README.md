@@ -20,3 +20,12 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
   - override
   - Polymorphie
 - Wie überschreibt man die Methode `virtual string ToString()`?
+
+##Locale Repositorie Befehle
+git init
+git add
+git commit
+git merge
+git log
+git branch
+git checkout
