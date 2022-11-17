@@ -26,7 +26,7 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 - git add		git **add** [Datei.xyz] wird benutzt um Dateien an den gearbeitetet wurden in die Staging area (auch bekannt als "the Index") zu verschieben
 - git commit	git **commit** fügt die Dateien die in der Staging area sind in das Repositorie ein. -m ist eine Extra option um eine Message dem commit mitzugeben.
 		Fals keine message mitgegeben wird wird der Standart Text Editor Geöffnet.
-- git merge	Um 2 oder mehrere Commits zusammenzufügen benutzt man git **merge**
-- git log
-- git branch
-- git checkout
+- git merge	Um 2 oder mehrere Commits zusammenzufügen benutzt man git **merge**	
+- git branch	Mit git **branch** wird ein "Namensschild" für einen Commit erstellt. 
+- git checkout	Damit man auf bestimmte Commits oder Branches zugreifen kann benutzt man git **checkout**.
+- git log	Mit git **log** kann man die Historie des ausgewählten commit sehen.
