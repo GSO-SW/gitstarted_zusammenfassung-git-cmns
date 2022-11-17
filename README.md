@@ -34,4 +34,7 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
     Arbeitskopie von den Entwicklern die an diesem Repository arbeiten,
     die den Vollständigen verlauf der Aenderungen enthält. 
     Alle lokalen Aeanderungen werden auf einem lokalen Repository gespeichtert.
+  Branch:
+    Durch Git-Branch koennen arbeitsstaende in seperate Arbeitszweige
+    Aufgeteilt werden das sind sogennante "Branches". Sie dienen dazu funktionen getrennt voneinander zu entwickeln.
 ----
