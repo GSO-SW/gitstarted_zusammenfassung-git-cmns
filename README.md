@@ -21,19 +21,20 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
   - Polymorphie
 - Wie überschreibt man die Methode `virtual string ToString()`?
 
---Begriffe definieren und erklären--
-  Git: 
+## Begriffe definieren und erklären ## 
+  -Git: 
     Git ist eine Software zur versionsverwaltung bzw. versionskontrolle.
+
     Git erlaubt mehreren entwicklern gleichzeitig and einem Projekt zu 
     arbeiten indem sie eine Komplette arbeitskopie lokal auf ihrem Rechner
     Vorhanden ist.
     Gleichzeitig ist es möglich die änderungen zu verfolgen und einzusehen.
-  Repository:
+  -Repository:
     Ein Git-Repository ist ein Aufbewahrungsort. Gleichzeitig ist es eine
     Arbeitskopie von den Entwicklern die an diesem Repository arbeiten,
     die den Vollständigen verlauf der Aenderungen enthält. 
     Alle lokalen Aeanderungen werden auf einem lokalen Repository gespeichtert.
-  Branch:
+  -Branch:
     Durch Git-Branch koennen arbeitsstaende in seperate Arbeitszweige
     Aufgeteilt werden das sind sogennante "Branches". Sie dienen dazu funktionen getrennt voneinander zu entwickeln.
 ----
