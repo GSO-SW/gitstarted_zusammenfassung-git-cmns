@@ -23,5 +23,10 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 
 
 --Begriffe definieren und erklären--
-
+  Git: 
+    Git ist eine Software zur versionsverwaltung bzw. versionskontrolle.
+    Git erlaubt mehreren entwicklern gleichzeitig and einem Projekt zu 
+    arbeiten indem sie eine Komplette arbeitskopie lokal auf ihrem Rechner
+    Vorhanden ist.
+    Gleichzeitig ist es möglich die änderungen zu verfolgen und einzusehen.
 ----
