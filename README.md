@@ -46,6 +46,10 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 
     Der Befehl Git-Commit wird verwendet um den Status eines Projekts zu erfassen. Der gegenwärtige status eines Projekts wird dadurch als eine version in Git gespeichert.
 
+  - Merge:
+
+    Merge der Befehlt git merge wird genutzt um veränderte änderungen aus verschiedenen Branches zusammen zu führen.
+
   
 
 ----
