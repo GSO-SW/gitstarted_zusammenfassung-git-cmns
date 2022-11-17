@@ -21,12 +21,12 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
   - Polymorphie
 - Wie überschreibt man die Methode `virtual string ToString()`?
 
-##Locale Repositorie Befehle
-git init	Der Befehl git **Init** iniziiert ein Lokales Git Repository in dem Ordner in dem der Befeht ausgeübt wurde
-git add		git **add** [Datei.xyz] wird benutzt um Dateien an den gearbeitetet wurden in die Staging area (auch bekannt als "the Index") zu verschieben
-git commit	git **commit** fügt die Dateien die in der Staging area sind in das Repositorie ein. -m ist eine Extra option um eine Message dem commit mitzugeben.
+## Locale Repositorie Befehle
+- git init	Der Befehl git **Init** iniziiert ein Lokales Git Repository in dem Ordner in dem der Befeht ausgeübt wurde
+- git add		git **add** [Datei.xyz] wird benutzt um Dateien an den gearbeitetet wurden in die Staging area (auch bekannt als "the Index") zu verschieben
+- git commit	git **commit** fügt die Dateien die in der Staging area sind in das Repositorie ein. -m ist eine Extra option um eine Message dem commit mitzugeben.
 		Fals keine message mitgegeben wird wird der Standart Text Editor Geöffnet.
-git merge
-git log
-git branch
-git checkout
+- git merge	
+- git log
+- git branch
+- git checkout
