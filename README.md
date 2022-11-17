@@ -29,7 +29,7 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
     arbeiten indem sie eine Komplette arbeitskopie lokal auf ihrem Rechner
     Vorhanden ist.
     Gleichzeitig ist es möglich die änderungen zu verfolgen und einzusehen.
-    
+
   - Repository:
 
     Ein Git-Repository ist ein Aufbewahrungsort. Gleichzeitig ist es eine
@@ -41,6 +41,13 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 
     Durch Git-Branch koennen arbeitsstaende in seperate Arbeitszweige
     Aufgeteilt werden das sind sogennante "Branches". Sie dienen dazu funktionen getrennt voneinander zu entwickeln.
+
+  - Commit:
+
+    Der Befehl Git-Commit wird verwendet um den Status eines Projekts zu erfassen. Der gegenwärtige status eines Projekts wird dadurch als eine version in Git gespeichert.
+
+  
+
 ----
 =======
 ## Locale Repositorie Befehle
