@@ -20,3 +20,8 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
   - override
   - Polymorphie
 - Wie überschreibt man die Methode `virtual string ToString()`?
+
+
+--Begriffe definieren und erklären--
+
+----
