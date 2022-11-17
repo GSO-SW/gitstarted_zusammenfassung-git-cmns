@@ -50,6 +50,10 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 
     Merge der Befehlt git merge wird genutzt um veränderte änderungen aus verschiedenen Branches zusammen zu führen.
 
+ - Push: 
+  
+    Push also der Befehlt (git-Push) wird genutz um lokale änderung auf 
+    ein remote Repositroy zu senden.
   
 
 ----
