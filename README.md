@@ -22,9 +22,9 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 - Wie überschreibt man die Methode `virtual string ToString()`?
 
 ##Locale Repositorie Befehle
-git init
-git add
-git commit
+git init	Der Befehl git **Init** iniziiert ein Lokales Git Repository in dem Ordner in dem der Befeht ausgeübt wurde
+git add		git **add** [Datei.xyz] wird benutzt um Dateien an den gearbeitetet wurden in die Staging area (auch bekannt als "the Index") zu verschieben
+git commit	
 git merge
 git log
 git branch
