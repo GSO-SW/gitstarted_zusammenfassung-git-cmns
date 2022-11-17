@@ -29,4 +29,9 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
     arbeiten indem sie eine Komplette arbeitskopie lokal auf ihrem Rechner
     Vorhanden ist.
     Gleichzeitig ist es möglich die änderungen zu verfolgen und einzusehen.
+  Repository:
+    Ein Git-Repository ist ein Aufbewahrungsort. Gleichzeitig ist es eine
+    Arbeitskopie von den Entwicklern die an diesem Repository arbeiten,
+    die den Vollständigen verlauf der Aenderungen enthält. 
+    Alle lokalen Aeanderungen werden auf einem lokalen Repository gespeichtert.
 ----
