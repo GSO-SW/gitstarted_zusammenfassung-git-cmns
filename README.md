@@ -94,6 +94,20 @@ kombiniert hier jedoch die änderungen via. merge.
   - abstract(klassen)
   - abstract(methoden)
   - virtual 
+    Das Schlüsselwort virtual wird genutzt um zu änderungen zu Erlauben
+    in Methoden , Eigenschaften, Indexer oder Ereignisdeklaration. Sie lässt zu das in einer abgeleiten Klasse außer der z.B Methoden körper Außerkraft gesetz wird.
+
+      public virtual double Area()
+      {
+          return x * y;
+      }
+
+      public override double Area()
+      {
+        return x * y * z;
+      }
+
+      hier wird die Methode überschrieben mit der neuen.
   - override 
   - Polymorphie
   - Wie überschreibt man die Methode "virtual string ToString()"?
