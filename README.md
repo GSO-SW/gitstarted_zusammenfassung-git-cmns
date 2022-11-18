@@ -98,7 +98,12 @@ kombiniert hier jedoch die änderungen via. merge.
   # Polymorphie
 
     Polymorphismus ist im Grunde ein Wort, das "Vielgestaltigkeit" bedeutet.
+    Technisch; besteht darin, dass eine Oberklassenreferenz alle Unterklassenobjekte enthalten kann.
     
+    Objekte in der Unterklasse haben die gleichen Methoden wie die Oberklasse.
+    Zusammen mit dieser Funktion ermöglicht Polymorphismus die Verwendung von Unterklassenobjekten mit einer Oberklassenreferenz.
+
+    Polymorphismus kann auch als die Kommunikation von Objekten definiert werden, ohne sich gegenseitig zu erkennen.
 
   - Wie überschreibt man die Methode "virtual string ToString()"?
 
