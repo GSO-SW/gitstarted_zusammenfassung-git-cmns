@@ -108,6 +108,14 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 	sie aber von Klasse zu Klasse variieren könnte.
 	
   - virtual
+  
   - override
+    Override kann man bei Methoden anwenden, um sie zu überschreiben,
+	falls die "standard-Methode" nicht zur Klasse passen sollte.
+	Das kann man bei Vererbungen wie z.B. Von Mensch zu Männlich&Weiblich.
+	Beide können eine Methode haben, wo die Zeichenkette "Ich bin ein Mensch."
+	ausgegeben wird. Mit override kann man aber festlegen, dass das männliche Geschlecht
+	"Ich bin ein Mann." und das weibliche Geschlecht "Ich bin eine Frau." als Methodenausgabe hat.
+	
   - Polymorphie
   - Wie überschreibt man die Methode "virtual string ToString()"?
