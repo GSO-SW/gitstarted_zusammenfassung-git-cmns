@@ -95,7 +95,11 @@ kombiniert hier jedoch die änderungen via. merge.
   - abstract(methoden)
   - virtual 
   - override 
-  - Polymorphie
+  # Polymorphie
+
+    Polymorphismus ist im Grunde ein Wort, das "Vielgestaltigkeit" bedeutet.
+    
+
   - Wie überschreibt man die Methode "virtual string ToString()"?
 
   
