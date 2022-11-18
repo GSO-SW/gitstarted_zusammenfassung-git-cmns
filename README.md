@@ -102,7 +102,12 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 	erben, und evtl. von der Erbenden Klasse Objekte erstellen.
 	
   - abstract(methoden)
-  - virtual 
-  - override 
+	Abstrakte Methoden sind ähnlich zu Abstrakten Klassen.
+	Diese muss man in erbenden Klassen überschreiben, bzw. definieren.
+	Das könnte man gebrauchen, wenn zwar alle erbenden Klassen eine Methode brauchen,
+	sie aber von Klasse zu Klasse variieren könnte.
+	
+  - virtual
+  - override
   - Polymorphie
   - Wie überschreibt man die Methode "virtual string ToString()"?
