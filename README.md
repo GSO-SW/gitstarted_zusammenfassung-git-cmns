@@ -89,4 +89,13 @@ Es werden commits in das lokale repository heruntergeladen.
 Der Befehl lässt vom remote repository in das lokale kopieren,
 kombiniert hier jedoch die änderungen via. merge.
 
+## Fachbegriffe OOP mit beispielen
 
+  - abstract(klassen)
+  - abstract(methoden)
+  - virtual 
+  - override 
+  - Polymorphie
+  - Wie überschreibt man die Methode "virtual string ToString()"?
+
+  
