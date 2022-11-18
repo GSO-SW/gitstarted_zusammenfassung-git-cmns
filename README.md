@@ -25,11 +25,11 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
   - Git: 
 
     Git ist eine Software zur versionsverwaltung bzw. versionskontrolle.
-    Git erlaubt mehreren entwicklern gleichzeitig and einem Projekt zu 
+    Git erlaubt mehreren entwicklern gleichzeitig and einem Projegkt zu 
     arbeiten indem sie eine Komplette arbeitskopie lokal auf ihrem Rechner
     Vorhanden ist.
     Gleichzeitig ist es möglich die änderungen zu verfolgen und einzusehen.
-    
+
   - Repository:
 
     Ein Git-Repository ist ein Aufbewahrungsort. Gleichzeitig ist es eine
@@ -67,7 +67,6 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 - git log
 - git branch
 - git checkout
->>>>>>> Michael
 
 ## git Befehle für die Arbeit mit entfernten Repositories:
 'git clone' wird verwendet, um ein vorhandenes repository,
@@ -89,5 +88,5 @@ Es werden commits in das lokale repository heruntergeladen.
 'git pull' ist eine erweiterung von 'git fetch'.
 Der Befehl lässt vom remote repository in das lokale kopieren,
 kombiniert hier jedoch die änderungen via. merge.
-## git Befehle für die Arbeit mit entfernten Repositories: (ENDE)
+
 
