@@ -92,10 +92,17 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 ## Fachbegriffe OOP mit beispielen
 
   - abstract(klassen)
+	Abstrakte Klassen sind Klassen, mit dem bloßen Zweck, erbbar zu sein.
+	Sprich: Instanzen, bzw. Objekte dieser Klasse sind nicht erzeugbar.
+	Ein gutes Beispiel dafür wäre eine Klasse 'Lebewesen'.
+	Alles, was sich bewegen, sich fortplanzen und wachsen kann, nennt man Lebewesen.
+	Sache ist jeodch, dass es 'das Lebewesen' nicht als Objekt/Materie,
+	sondern nur als eine Idee, ein Konzept, oder halt eine Abstraktion.
+	Es gibt vieles, was ein Lebewesen IST. Deswegen kann man von der Klasse 'Lebewesen'
+	erben, und evtl. von der Erbenden Klasse Objekte erstellen.
+	
   - abstract(methoden)
   - virtual 
   - override 
   - Polymorphie
   - Wie überschreibt man die Methode "virtual string ToString()"?
-
-  
