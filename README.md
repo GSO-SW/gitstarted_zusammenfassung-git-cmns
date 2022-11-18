@@ -77,30 +77,38 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
    Mit den zusatz optionen git **log --graph --all** kann man die Commits in einer graphischen Ansicht nachverfolgen.
 =======
 ## git Befehle für die Arbeit mit entfernten Repositories:
-'git clone' wird verwendet, um ein vorhandenes repository,
-ob lokal, oder remote repository zu klonen/kopieren,
-dieses auf dem lokalen Rechner zu speichern und das repository als Ziel festzulegen.
-Dadurch ist 'git init' nicht notwendig.
+  - 'git clone' wird verwendet, um ein vorhandenes repository,
+	ob lokal, oder remote repository zu klonen/kopieren,
+	dieses auf dem lokalen Rechner zu speichern und das repository als Ziel festzulegen.
+	Dadurch ist 'git init' nicht notwendig.
 
-'git revert' ist ein Befehl, um kommits "rückgängig" machen zu können.
-dadurch wird ein neues commit erstellt, welches die Änderungen des
-reverteten commits ignoriert.
+  -	'git revert' ist ein Befehl, um kommits "rückgängig" machen zu können.
+	dadurch wird ein neues commit erstellt, welches die Änderungen des
+	reverteten commits ignoriert.
 
-Mit 'git push' kann man ein lokales repository in ein remote remote
-hochladen. Genauer gesagt überträgt man die commits in das remote repository.
-man kann 2 argumente übergeben. Das erste ist des remote repository's Verweis, das zweite der branch.
+  - Mit 'git push' kann man ein lokales repository in ein remote remote
+	hochladen. Genauer gesagt überträgt man die commits in das remote repository.
+	man kann 2 argumente übergeben. Das erste ist des remote repository's Verweis, das zweite der branch.
 
-'git fetch' ist so ziemlich das Gegenteil von 'git push'.
-Es werden commits in das lokale repository heruntergeladen.
+  - 'git fetch' ist so ziemlich das Gegenteil von 'git push'.
+	Es werden commits in das lokale repository heruntergeladen.
 
-'git pull' ist eine erweiterung von 'git fetch'.
-Der Befehl lässt vom remote repository in das lokale kopieren,
-kombiniert hier jedoch die änderungen via. merge.
+  - 'git pull' ist eine erweiterung von 'git fetch'.
+	Der Befehl lässt vom remote repository in das lokale kopieren,
+	kombiniert hier jedoch die änderungen via. merge.
 
 ## Fachbegriffe OOP mit beispielen
 
   - abstract(klassen)
-  - abstract(methoden)
+	Abstrakte Klassen sind Klassen, mit dem bloßen Zweck, erbbar zu sein.
+	Sprich: Instanzen, bzw. Objekte dieser Klasse sind nicht erzeugbar.
+	Ein gutes Beispiel dafür wäre eine Klasse 'Lebewesen'.
+	Alles, was sich bewegen, sich fortplanzen und wachsen kann, nennt man Lebewesen.
+	Sache ist jeodch, dass es 'das Lebewesen' nicht als Objekt/Materie,
+	sondern nur als eine Idee, ein Konzept, oder halt eine Abstraktion.
+	Es gibt vieles, was ein Lebewesen IST. Deswegen kann man von der Klasse 'Lebewesen'
+	erben, und evtl. von der Erbenden Klasse Objekte erstellen.
+	
   - virtual 
     Das Schlüsselwort virtual wird genutzt um zu änderungen zu Erlauben
     in Methoden , Eigenschaften, Indexer oder Ereignisdeklaration. Sie lässt zu das in einer abgeleiten Klasse außer der z.B Methoden körper Außerkraft gesetz wird.
@@ -116,7 +124,6 @@ kombiniert hier jedoch die änderungen via. merge.
       }
 
       hier wird die Methode überschrieben mit der neuen.
-  - override 
   # Polymorphie
 
     Polymorphismus ist im Grunde ein Wort, das "Vielgestaltigkeit" bedeutet.
@@ -130,4 +137,21 @@ kombiniert hier jedoch die änderungen via. merge.
   - Wie überschreibt man die Methode "virtual string ToString()"?
 
   
+
+=======
+  - abstract (Methoden)
+	Abstrakte Methoden sind ähnlich zu Abstrakten Klassen.
+	Diese muss man in erbenden Klassen überschreiben, bzw. definieren.
+	Das könnte man gebrauchen, wenn zwar alle erbenden Klassen eine Methode brauchen,
+	sie aber von Klasse zu Klasse variieren könnte.
+  
+  - override
+    Override kann man bei Methoden anwenden, um sie zu überschreiben,
+	falls die "standard-Methode" nicht zur Klasse passen sollte.
+	Das kann man bei Vererbungen wie z.B. Von Mensch zu Männlich&Weiblich.
+	Beide können eine Methode haben, wo die Zeichenkette "Ich bin ein Mensch."
+	ausgegeben wird. Mit override kann man aber festlegen, dass das männliche Geschlecht
+	"Ich bin ein Mann." und das weibliche Geschlecht "Ich bin eine Frau." als Methodenausgabe hat.
+	
+  - Wie überschreibt man die Methode "virtual string ToString()"?
 
